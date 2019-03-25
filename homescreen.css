@@ -21,15 +21,15 @@ body {
 	text-align: center;
 }
 
-@media only screen and (max-width: 499px) {
+@media (max-width: 499px) {
 	.element { width: 50%; }
 }
 
-@media only screen and (min-width: 500px) {
+@media (min-width: 500px) {
 	.element { width: 25%; }
 }
 
-@media only screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
 	.element { width: 16.6%; }
 }
 
